@@ -1,0 +1,51 @@
+# analyze_dhdl.py, pmx version = 0+untagged.852.g30c3fd8
+# pwd = /scratch/panbazha/ngoquoc1/Leptin_project/MutationBindingFreeEnergyChange/MutLeptin/Rep2/Analysis
+# Sat Jun 10 14:43:38 2023 (ngoquoc1)
+# command = /projappl/panbazha/pmx/src/pmx/scripts/analyze_dhdl.py -fA stateA_dhdl_file/dhdl0.xvg stateA_dhdl_file/dhdl10.xvg stateA_dhdl_file/dhdl11.xvg stateA_dhdl_file/dhdl12.xvg stateA_dhdl_file/dhdl13.xvg stateA_dhdl_file/dhdl14.xvg stateA_dhdl_file/dhdl15.xvg stateA_dhdl_file/dhdl16.xvg stateA_dhdl_file/dhdl17.xvg stateA_dhdl_file/dhdl18.xvg stateA_dhdl_file/dhdl19.xvg stateA_dhdl_file/dhdl1.xvg stateA_dhdl_file/dhdl20.xvg stateA_dhdl_file/dhdl21.xvg stateA_dhdl_file/dhdl22.xvg stateA_dhdl_file/dhdl23.xvg stateA_dhdl_file/dhdl24.xvg stateA_dhdl_file/dhdl25.xvg stateA_dhdl_file/dhdl26.xvg stateA_dhdl_file/dhdl27.xvg stateA_dhdl_file/dhdl28.xvg stateA_dhdl_file/dhdl29.xvg stateA_dhdl_file/dhdl2.xvg stateA_dhdl_file/dhdl30.xvg stateA_dhdl_file/dhdl31.xvg stateA_dhdl_file/dhdl32.xvg stateA_dhdl_file/dhdl33.xvg stateA_dhdl_file/dhdl34.xvg stateA_dhdl_file/dhdl35.xvg stateA_dhdl_file/dhdl36.xvg stateA_dhdl_file/dhdl37.xvg stateA_dhdl_file/dhdl38.xvg stateA_dhdl_file/dhdl39.xvg stateA_dhdl_file/dhdl3.xvg stateA_dhdl_file/dhdl40.xvg stateA_dhdl_file/dhdl41.xvg stateA_dhdl_file/dhdl42.xvg stateA_dhdl_file/dhdl43.xvg stateA_dhdl_file/dhdl44.xvg stateA_dhdl_file/dhdl45.xvg stateA_dhdl_file/dhdl46.xvg stateA_dhdl_file/dhdl47.xvg stateA_dhdl_file/dhdl48.xvg stateA_dhdl_file/dhdl49.xvg stateA_dhdl_file/dhdl4.xvg stateA_dhdl_file/dhdl50.xvg stateA_dhdl_file/dhdl51.xvg stateA_dhdl_file/dhdl52.xvg stateA_dhdl_file/dhdl53.xvg stateA_dhdl_file/dhdl54.xvg stateA_dhdl_file/dhdl55.xvg stateA_dhdl_file/dhdl56.xvg stateA_dhdl_file/dhdl57.xvg stateA_dhdl_file/dhdl58.xvg stateA_dhdl_file/dhdl59.xvg stateA_dhdl_file/dhdl5.xvg stateA_dhdl_file/dhdl60.xvg stateA_dhdl_file/dhdl61.xvg stateA_dhdl_file/dhdl62.xvg stateA_dhdl_file/dhdl63.xvg stateA_dhdl_file/dhdl64.xvg stateA_dhdl_file/dhdl65.xvg stateA_dhdl_file/dhdl66.xvg stateA_dhdl_file/dhdl67.xvg stateA_dhdl_file/dhdl68.xvg stateA_dhdl_file/dhdl69.xvg stateA_dhdl_file/dhdl6.xvg stateA_dhdl_file/dhdl70.xvg stateA_dhdl_file/dhdl71.xvg stateA_dhdl_file/dhdl72.xvg stateA_dhdl_file/dhdl73.xvg stateA_dhdl_file/dhdl74.xvg stateA_dhdl_file/dhdl75.xvg stateA_dhdl_file/dhdl76.xvg stateA_dhdl_file/dhdl77.xvg stateA_dhdl_file/dhdl78.xvg stateA_dhdl_file/dhdl79.xvg stateA_dhdl_file/dhdl7.xvg stateA_dhdl_file/dhdl80.xvg stateA_dhdl_file/dhdl81.xvg stateA_dhdl_file/dhdl82.xvg stateA_dhdl_file/dhdl83.xvg stateA_dhdl_file/dhdl84.xvg stateA_dhdl_file/dhdl85.xvg stateA_dhdl_file/dhdl86.xvg stateA_dhdl_file/dhdl87.xvg stateA_dhdl_file/dhdl88.xvg stateA_dhdl_file/dhdl89.xvg stateA_dhdl_file/dhdl8.xvg stateA_dhdl_file/dhdl90.xvg stateA_dhdl_file/dhdl91.xvg stateA_dhdl_file/dhdl92.xvg stateA_dhdl_file/dhdl93.xvg stateA_dhdl_file/dhdl94.xvg stateA_dhdl_file/dhdl95.xvg stateA_dhdl_file/dhdl96.xvg stateA_dhdl_file/dhdl97.xvg stateA_dhdl_file/dhdl98.xvg stateA_dhdl_file/dhdl99.xvg stateA_dhdl_file/dhdl9.xvg -fB stateB_dhdl_file/dhdl0.xvg stateB_dhdl_file/dhdl10.xvg stateB_dhdl_file/dhdl11.xvg stateB_dhdl_file/dhdl12.xvg stateB_dhdl_file/dhdl13.xvg stateB_dhdl_file/dhdl14.xvg stateB_dhdl_file/dhdl15.xvg stateB_dhdl_file/dhdl16.xvg stateB_dhdl_file/dhdl17.xvg stateB_dhdl_file/dhdl18.xvg stateB_dhdl_file/dhdl19.xvg stateB_dhdl_file/dhdl1.xvg stateB_dhdl_file/dhdl20.xvg stateB_dhdl_file/dhdl21.xvg stateB_dhdl_file/dhdl22.xvg stateB_dhdl_file/dhdl23.xvg stateB_dhdl_file/dhdl24.xvg stateB_dhdl_file/dhdl25.xvg stateB_dhdl_file/dhdl26.xvg stateB_dhdl_file/dhdl27.xvg stateB_dhdl_file/dhdl28.xvg stateB_dhdl_file/dhdl29.xvg stateB_dhdl_file/dhdl2.xvg stateB_dhdl_file/dhdl30.xvg stateB_dhdl_file/dhdl31.xvg stateB_dhdl_file/dhdl32.xvg stateB_dhdl_file/dhdl33.xvg stateB_dhdl_file/dhdl34.xvg stateB_dhdl_file/dhdl35.xvg stateB_dhdl_file/dhdl36.xvg stateB_dhdl_file/dhdl37.xvg stateB_dhdl_file/dhdl38.xvg stateB_dhdl_file/dhdl39.xvg stateB_dhdl_file/dhdl3.xvg stateB_dhdl_file/dhdl40.xvg stateB_dhdl_file/dhdl41.xvg stateB_dhdl_file/dhdl42.xvg stateB_dhdl_file/dhdl43.xvg stateB_dhdl_file/dhdl44.xvg stateB_dhdl_file/dhdl45.xvg stateB_dhdl_file/dhdl46.xvg stateB_dhdl_file/dhdl47.xvg stateB_dhdl_file/dhdl48.xvg stateB_dhdl_file/dhdl49.xvg stateB_dhdl_file/dhdl4.xvg stateB_dhdl_file/dhdl50.xvg stateB_dhdl_file/dhdl51.xvg stateB_dhdl_file/dhdl52.xvg stateB_dhdl_file/dhdl53.xvg stateB_dhdl_file/dhdl54.xvg stateB_dhdl_file/dhdl55.xvg stateB_dhdl_file/dhdl56.xvg stateB_dhdl_file/dhdl57.xvg stateB_dhdl_file/dhdl58.xvg stateB_dhdl_file/dhdl59.xvg stateB_dhdl_file/dhdl5.xvg stateB_dhdl_file/dhdl60.xvg stateB_dhdl_file/dhdl61.xvg stateB_dhdl_file/dhdl62.xvg stateB_dhdl_file/dhdl63.xvg stateB_dhdl_file/dhdl64.xvg stateB_dhdl_file/dhdl65.xvg stateB_dhdl_file/dhdl66.xvg stateB_dhdl_file/dhdl67.xvg stateB_dhdl_file/dhdl68.xvg stateB_dhdl_file/dhdl69.xvg stateB_dhdl_file/dhdl6.xvg stateB_dhdl_file/dhdl70.xvg stateB_dhdl_file/dhdl71.xvg stateB_dhdl_file/dhdl72.xvg stateB_dhdl_file/dhdl73.xvg stateB_dhdl_file/dhdl74.xvg stateB_dhdl_file/dhdl75.xvg stateB_dhdl_file/dhdl76.xvg stateB_dhdl_file/dhdl77.xvg stateB_dhdl_file/dhdl78.xvg stateB_dhdl_file/dhdl79.xvg stateB_dhdl_file/dhdl7.xvg stateB_dhdl_file/dhdl80.xvg stateB_dhdl_file/dhdl81.xvg stateB_dhdl_file/dhdl82.xvg stateB_dhdl_file/dhdl83.xvg stateB_dhdl_file/dhdl84.xvg stateB_dhdl_file/dhdl85.xvg stateB_dhdl_file/dhdl86.xvg stateB_dhdl_file/dhdl87.xvg stateB_dhdl_file/dhdl88.xvg stateB_dhdl_file/dhdl89.xvg stateB_dhdl_file/dhdl8.xvg stateB_dhdl_file/dhdl90.xvg stateB_dhdl_file/dhdl91.xvg stateB_dhdl_file/dhdl92.xvg stateB_dhdl_file/dhdl93.xvg stateB_dhdl_file/dhdl94.xvg stateB_dhdl_file/dhdl95.xvg stateB_dhdl_file/dhdl96.xvg stateB_dhdl_file/dhdl97.xvg stateB_dhdl_file/dhdl98.xvg stateB_dhdl_file/dhdl99.xvg stateB_dhdl_file/dhdl9.xvg
+
+
+ ========================================================
+                       ANALYSIS
+ ========================================================
+  Number of forward (0->1) trajectories: 100
+  Number of reverse (1->0) trajectories: 100
+  Temperature : 298.15 K
+
+ --------------------------------------------------------
+             Crooks Gaussian Intersection     
+ --------------------------------------------------------
+  CGI: Forward Gauss mean =    77.61 kJ/mol std =     4.88 kJ/mol
+  CGI: Reverse Gauss mean =    57.74 kJ/mol std =     9.48 kJ/mol
+  CGI: dG =    69.39 kJ/mol
+  CGI: Std Err (bootstrap:parametric) =     0.58 kJ/mol
+  CGI: Std Err (bootstrap) =     0.53 kJ/mol
+    Forward: gaussian quality = 0.65
+             ---> KS-Test Ok
+    Reverse: gaussian quality = 0.06
+             ---> KS-Test Ok
+
+ --------------------------------------------------------
+             Bennett Acceptance Ratio     
+ --------------------------------------------------------
+  BAR: dG =    69.27 kJ/mol
+  BAR: Std Err (analytical) =     0.62 kJ/mol
+  BAR: Std Err (bootstrap)  =     0.51 kJ/mol
+  BAR: Conv =     0.21
+  BAR: Conv Std Err (bootstrap) =     0.11
+
+ --------------------------------------------------------
+             Jarzynski estimator     
+ --------------------------------------------------------
+  JARZ: dG Forward =    71.13 kJ/mol
+  JARZ: dG Reverse =    66.44 kJ/mol
+  JARZ: dG Mean    =    68.79 kJ/mol
+  JARZ: Std Err Forward (bootstrap) =     1.45 kJ/mol
+  JARZ: Std Err Reverse (bootstrap) =     1.33 kJ/mol
+  JARZ_Gauss: dG Forward =    72.76 kJ/mol
+  JARZ_Gauss: dG Reverse =    76.04 kJ/mol
+  JARZ_Gauss: dG Mean    =    74.40 kJ/mol
+  JARZ_Gauss: Std Err (analytical) Forward =     0.85 kJ/mol
+  JARZ_Gauss: Std Err (analytical) Reverse =     2.77 kJ/mol
+  JARZ_Gauss: Std Err Forward (bootstrap) =     0.90 kJ/mol
+  JARZ_Gauss: Std Err Reverse (bootstrap) =     2.78 kJ/mol
+ ========================================================
