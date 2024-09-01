@@ -19,5 +19,5 @@ Directory "MultiSimulations_Result_and_Analysis" contains raw data, designed ana
 
 The analysis scripts and coarse-grained MD simulations requires software and python libraries specified in env.yml script.
 
-To create environment for MDAnalysis: conda env create -f env.yml
+To create the required environment executes 'conda env create -f env.yml'
 
