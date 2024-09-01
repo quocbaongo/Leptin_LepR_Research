@@ -275,30 +275,3 @@ cd $WorkDir/L72S/SSChange
 # Collecting sampled WT leptin structure volume values over the course of simulation
 python3 /path/to/SecondaryStructure_Detection/SSDetection.py -traj $WorkDir/L72S/ConcatenatedTraj/trajout.xtc -tpr $WorkDir/L72S/ConcatenatedTraj/Structure_pdb2gmx.pdb -FileOut $WorkDir/L72S/SSChange/SSOut
 
-
-
-
-
-
-###################################################################################################################################################################################################
-
-	
-	
-	
-Python library:
-	- biotite
-	- numpy
-	- MDAnalysis
-	- multiprocessing 
-	- scipy
-	- pymol
-	- matplotlib
-
-
-
-
-
-
-
-
-
