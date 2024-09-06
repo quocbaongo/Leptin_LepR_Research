@@ -134,11 +134,11 @@ done
 #3. Tracking the distance between leptin and the LR CRH2 domain over the course of simulation.
 
 # The python script /path/to/CenterOfMass_InterfaceResidues_distance/Measuring_COM_distance.py works in such a way that
-#it first detects the interface amino acids residues from each molecule using pymol (check https://pymolwiki.org/index.php/InterfaceResidues) in the crystal structure 
-#of 3:3 leptin-LR (PDB ID: 8AVF) in coarse-grained level. For each structural frame in the trjectory, 
+#it first detects the interface amino acids residues from each molecule using pymol (check https://pymolwiki.org/index.php/InterfaceResidues) using 
+#the complex structure provided through the flag '-tpr'. We used the crystal structure of 3:3 leptin-LR (PDB ID: 8AVF) in coarse-grained level for 
+#initial interface residues detection. Afterwards, for each structural frame in the trjectory, 
 #the center of geometry of each molecule's group of the mentioned amino acids is then detected, and
-#their distance is calculated and saved
-
+#their distance is calculated and saved in the text file with name defined through the flag '-File_Out'
 
 # WT leptin simulations
 
@@ -157,11 +157,11 @@ do
 	mkdir $WorkDir/WT/CenterOfGeometry_distance/Rep$i
 	cd $WorkDir/WT/CenterOfGeometry_distance/Rep$i
 	
-	python3 /path/to/CenterOfMass_InterfaceResidues_distance/Measuring_COM_distance.py -traj $WTTrajDir/Rep$i/FixPBC/md_nojump_whole_fit.xtc -s $WTTrajDir/VaccumEM/Complex_box.pdb -ChainID1 A -ChainID2 B -File_Out $WorkDir/WT/CenterOfGeometry_distance/Rep$i/FileAB.txt
+	python3 /path/to/CenterOfMass_InterfaceResidues_distance/Measuring_COM_distance.py -traj $WTTrajDir/Rep$i/FixPBC/md_nojump_whole_fit.xtc -tpr $WTTrajDir/VaccumEM/Complex_box.pdb -ChainID1 A -ChainID2 B -File_Out $WorkDir/WT/CenterOfGeometry_distance/Rep$i/FileAB.txt
 	
-	python3 /path/to/CenterOfMass_InterfaceResidues_distance/Measuring_COM_distance.py -traj $WTTrajDir/Rep$i/FixPBC/md_nojump_whole_fit.xtc -s $WTTrajDir/VaccumEM/Complex_box.pdb -ChainID1 C -ChainID2 D -File_Out $WorkDir/WT/CenterOfGeometry_distance/Rep$i/FileCD.txt
+	python3 /path/to/CenterOfMass_InterfaceResidues_distance/Measuring_COM_distance.py -traj $WTTrajDir/Rep$i/FixPBC/md_nojump_whole_fit.xtc -tpr $WTTrajDir/VaccumEM/Complex_box.pdb -ChainID1 C -ChainID2 D -File_Out $WorkDir/WT/CenterOfGeometry_distance/Rep$i/FileCD.txt
 	
-	python3 /path/to/CenterOfMass_InterfaceResidues_distance/Measuring_COM_distance.py -traj $WTTrajDir/Rep$i/FixPBC/md_nojump_whole_fit.xtc -s $WTTrajDir/VaccumEM/Complex_box.pdb -ChainID1 E -ChainID2 F -File_Out $WorkDir/WT/CenterOfGeometry_distance/Rep$i/FileEF.txt
+	python3 /path/to/CenterOfMass_InterfaceResidues_distance/Measuring_COM_distance.py -traj $WTTrajDir/Rep$i/FixPBC/md_nojump_whole_fit.xtc -tpr $WTTrajDir/VaccumEM/Complex_box.pdb -ChainID1 E -ChainID2 F -File_Out $WorkDir/WT/CenterOfGeometry_distance/Rep$i/FileEF.txt
 
 
 done
@@ -187,11 +187,11 @@ do
 	mkdir $WorkDir/L72S/CenterOfGeometry_distance/Rep$i
 	cd $WorkDir/L72S/CenterOfGeometry_distance/Rep$i
 	
-	python3 /path/to/CenterOfMass_InterfaceResidues_distance/Measuring_COM_distance.py -traj $MTTrajDir/Rep$i/FixPBC/md_nojump_whole_fit.xtc -s $MTTrajDir/VaccumEM/Complex_box.pdb -ChainID1 A -ChainID2 B -File_Out $WorkDir/L72S/CenterOfGeometry_distance/Rep$i/FileAB.txt
+	python3 /path/to/CenterOfMass_InterfaceResidues_distance/Measuring_COM_distance.py -traj $MTTrajDir/Rep$i/FixPBC/md_nojump_whole_fit.xtc -tpr $MTTrajDir/VaccumEM/Complex_box.pdb -ChainID1 A -ChainID2 B -File_Out $WorkDir/L72S/CenterOfGeometry_distance/Rep$i/FileAB.txt
 	
-	python3 /path/to/CenterOfMass_InterfaceResidues_distance/Measuring_COM_distance.py -traj $MTTrajDir/Rep$i/FixPBC/md_nojump_whole_fit.xtc -s $MTTrajDir/VaccumEM/Complex_box.pdb -ChainID1 C -ChainID2 D -File_Out $WorkDir/L72S/CenterOfGeometry_distance/Rep$i/FileCD.txt
+	python3 /path/to/CenterOfMass_InterfaceResidues_distance/Measuring_COM_distance.py -traj $MTTrajDir/Rep$i/FixPBC/md_nojump_whole_fit.xtc -tpr $MTTrajDir/VaccumEM/Complex_box.pdb -ChainID1 C -ChainID2 D -File_Out $WorkDir/L72S/CenterOfGeometry_distance/Rep$i/FileCD.txt
 	
-	python3 /path/to/CenterOfMass_InterfaceResidues_distance/Measuring_COM_distance.py -traj $MTTrajDir/Rep$i/FixPBC/md_nojump_whole_fit.xtc -s $MTTrajDir/VaccumEM/Complex_box.pdb -ChainID1 E -ChainID2 F -File_Out $WorkDir/L72S/CenterOfGeometry_distance/Rep$i/FileEF.txt
+	python3 /path/to/CenterOfMass_InterfaceResidues_distance/Measuring_COM_distance.py -traj $MTTrajDir/Rep$i/FixPBC/md_nojump_whole_fit.xtc -tpr $MTTrajDir/VaccumEM/Complex_box.pdb -ChainID1 E -ChainID2 F -File_Out $WorkDir/L72S/CenterOfGeometry_distance/Rep$i/FileEF.txt
 
 
 done
