@@ -1,0 +1,3 @@
+Total Hbonds to Helices: 2230
+Total Hbonds to AB loop: 11788
+Total Hbonds to CD loop: 5745
