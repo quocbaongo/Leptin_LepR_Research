@@ -13,12 +13,6 @@ def validate_file(f):
         raise argparse.ArgumentTypeError("{0} does not exist".format(f))
     
     return f
-    
-def get_key(key):
-	try:
-		return int(key)
-	except ValueError:
-		return key    
 
 if __name__ == "__main__":
 
