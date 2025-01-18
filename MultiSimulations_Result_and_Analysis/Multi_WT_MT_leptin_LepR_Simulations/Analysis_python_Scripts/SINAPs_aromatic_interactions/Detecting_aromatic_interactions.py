@@ -118,9 +118,11 @@ if __name__ == '__main__':
 	parser.add_argument("-traj", type=validate_file, help="Trajectory: xtc trr cpt", required=True)
 	parser.add_argument("-tpr", type=validate_file, help="Structure+mass(db): pdb", required=True)	
 	parser.add_argument("-residue1", help="Specifying the id of first residue following the amino acid ids specified in flag -tpr \
-					(example: Tyr140A -> amino acid Tyr at amino acid id of 140 and chain id of A)", required=True)
+					(example: TYR140A -> amino acid Tyr at amino acid id of 140 and chain id of A). \
+     					Note: amino acid triple code must be written in capital", required=True)
 	parser.add_argument("-residue2", help="Specifying the id of second residue following the amino acid ids specified in flag -tpr \
-					(example: Tyr140A -> amino acid Tyr at amino acid id of 140 and chain id of A)", required=True)
+					(example: TYR140A -> amino acid Tyr at amino acid id of 140 and chain id of A). \
+     					Note: amino acid triple code must be written in capital", required=True)
 	args = parser.parse_args()
 
 
