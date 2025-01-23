@@ -93,8 +93,8 @@ if __name__ == '__main__':
 	parser.add_argument("-tpr", type=validate_file, help="Structure+mass(db): tpr gro pdb", required=True)
 	parser.add_argument("-resi1", help="Specifying selected first residue ID", required=True)
 	parser.add_argument("-resi2", help="Specifying selected second residue ID", required=True)
-	parser.add_argument("-ChainID1", help="Specifying selected first residue ID", required=False)
-	parser.add_argument("-ChainID2", help="Specifying selected second residue ID", required=False)
+	parser.add_argument("-ChainID1", help="Specifying selected first residue's chainID", required=False)
+	parser.add_argument("-ChainID2", help="Specifying selected second residue's chainID", required=False)
 	args = parser.parse_args()
 
 
